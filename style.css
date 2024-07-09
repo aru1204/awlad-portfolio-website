@@ -24,12 +24,15 @@
 .banner-title{
   font-size: 48px;
   font-weight: bolder;
+  line-height: 68px;
 }
 .banner-description{
   padding-top: 24px;
   padding-bottom: 32px;
   font-size: 16px;
   font-weight: 400;
+  color: rgba(13, 19, 33, 70%);
+  line-height: 26px;
 }
 .banner-button{
   margin-bottom: 45px;
@@ -39,4 +42,81 @@
   border-radius: 8px;
   font-size: 20px;
   font-weight: 500;
+}
+
+/* main-section style */
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* blog-section style */
+
+.blog-section{
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.568);
+  border-radius: 16px;
+  margin-top: 74px;
+  padding-bottom: 48px;
+}
+.blog-section-top{
+  width: 850px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+.blog-section-title{
+  font-size: 32px;
+  font-weight: bolder;
+}
+.blog-section-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 70%);
+  line-height: 26px;
+}
+
+.blog{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 950px;
+  padding: 48PX;
+  background-image: linear-gradient(to right, white, #00000000);
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+.blog-content{
+  width: 450px;
+}
+.blog-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d1321b3;
+  line-height: 36px;
+}
+.blog-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 70%);
+  line-height: 26px;
+}
+.blog-btn{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 20px;
+  background: none;
+  border: 2px solid rgba(13, 19, 33, 70%);
+  letter-spacing: 2px;
+}
+
+.blogtwo{
+  background-image: linear-gradient(to right, #00000000 , white);
 }
