@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 /* shared style */
 
 .font-style{
@@ -14,6 +19,7 @@
   font-weight: 400;
   color: rgba(13, 19, 33, 70%);
   line-height: 26px;
+  padding-top: 24px;
 }
 .section-style{
   width: 1140px;
@@ -44,7 +50,7 @@
   line-height: 68px;
 }
 .banner-description{
-  padding-top: 0px;
+  padding-top: 24px;
   padding-bottom: 32px;
   font-size: 16px;
   font-weight: 400;
@@ -110,6 +116,8 @@ main{
   font-weight: 400;
   color: rgba(13, 19, 33, 70%);
   line-height: 26px;
+  padding-top: 16px;
+  padding-bottom: 32px;
 }
 .blog-btn{
   font-size: 20px;
@@ -164,7 +172,7 @@ main{
 }
 .t-item{
   text-align: left; 
-  width: 300px;
+  width: 284px;
   padding: 40px;
 }
 .t-item-html{
@@ -185,12 +193,82 @@ main{
 .t-item-title{
   font-size: 24px;
   font-weight: bolder;
+  padding-top: 24px;
 }
 .t-item-description{
-  padding-bottom: 15px;
+  padding-bottom: 24px;
 }
 .t-item-btn{
   font-size: 16px;
   font-weight: bold;
   color: black;
+}
+
+/* support-section style */
+
+.support-section{
+  background-image: linear-gradient(to right, rgba(13, 19, 33, 0.4) , rgba(13, 19, 33, 0.4) ), url(assets/handshake.jpg);
+  background-position: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+.support-section-title{
+  color: white;
+  margin: 0px;
+}
+.support-section-description{
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  width: 600px;
+}
+.text-input{
+  height: 10px;
+  width: 600px;
+  border-radius: 8px;
+  padding: 20px 20px;
+  background-color: white;
+}
+.support-input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+::placeholder {
+  font-size: 16px; 
+}
+.submit-input{
+  padding: 13px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0D1321;
+  background-color: white;
+}
+
+/* footer-section style */
+
+.footer-section{
+  background-color: rgba(13, 19, 33, 3%);
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.footer-container{
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.footer-text{
+  font-size: 20px;
+  font-weight: 500;
+}
+.social-icon img{
+  width: 36px;
 }
